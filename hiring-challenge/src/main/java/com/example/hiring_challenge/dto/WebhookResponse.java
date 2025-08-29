@@ -1,5 +1,9 @@
 package com.example.hiring_challenge.dto;
 
-public class WebhookResponse {
+import lombok.Data;
 
+@Data
+public class WebhookResponse {
+    private String webhook;
+    private String accessToken;
 }
