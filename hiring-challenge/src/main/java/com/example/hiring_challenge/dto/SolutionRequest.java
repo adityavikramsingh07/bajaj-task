@@ -2,13 +2,9 @@ package com.example.hiring_challenge.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
-import lombok.NoArgsConstructor;
 
 @Data
-@NoArgsConstructor
 @AllArgsConstructor
-public class WebhookRequest {
-    private String name;
-    private String regNo;
-    private String email;
+public class SolutionRequest {
+    private String finalQuery;
 }
